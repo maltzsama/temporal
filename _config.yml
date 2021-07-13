@@ -8,7 +8,7 @@ subtitle: 'temporário, passageiro, provisório, transitório'
 description: 'reunião de escritos aleatórios'
 keywords:
 author: Demetrius
-language: pt-br
+language: pt
 timezone: ''
 
 # URL
@@ -102,4 +102,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/maltzsama/temporal
+  branch: gh-pages
+  
