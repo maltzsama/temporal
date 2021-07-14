@@ -1,2 +1,10 @@
 
-.article-entry p { text-align: justify; }
+.article-entry p {
+    text-align: justify;
+}
+
+.article blockquote {
+    text-align: justify;
+    background-color: rgb(209, 217, 224);
+    font-size: 1.0em;
+}
