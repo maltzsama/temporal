@@ -1,0 +1,19 @@
+/* Apresentação do texto das crônicas — o resto do tema landscape permanece intacto */
+
+.article-entry {
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+.article-entry p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  margin-bottom: 1.35em;
+}
+
+.article blockquote {
+  text-align: justify;
+  background-color: rgb(209, 217, 224);
+  font-size: 1em;
+}
