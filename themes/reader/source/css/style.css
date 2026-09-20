@@ -1,0 +1,331 @@
+:root {
+  --bg: #fbfaf7;
+  --text: #262523;
+  --muted: #8a8478;
+  --faint: #d8d4cc;
+  --accent: #9a3b26;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text);
+  background: var(--bg);
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--faint);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+
+a:hover {
+  text-decoration-color: var(--accent);
+}
+
+::selection {
+  background: #eadbc8;
+}
+
+/* Cabeçalho */
+
+.site-header {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 0;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  color: var(--accent);
+}
+
+.site-subtitle {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-top: 0.25rem;
+}
+
+.site-nav {
+  margin-top: 1.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--faint);
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.site-nav a:hover {
+  color: var(--accent);
+}
+
+/* Corpo */
+
+.site-main {
+  flex: 1;
+  width: 100%;
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 4rem;
+}
+
+/* Lista de crônicas (início) */
+
+.teaser {
+  margin-bottom: 3.5rem;
+}
+
+.teaser-date,
+.post-date,
+.archive-date {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.teaser-title {
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0.35rem 0 0.5rem;
+}
+
+.teaser-title a {
+  text-decoration: none;
+}
+
+.teaser-title a:hover {
+  color: var(--accent);
+}
+
+.teaser-excerpt {
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+/* Crônica */
+
+.post-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.post-title {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 0.4rem;
+}
+
+.post-content p {
+  margin-bottom: 1.4em;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.post-content > p:first-of-type::first-letter {
+  font-size: 3.4em;
+  font-weight: 500;
+  float: left;
+  line-height: 0.85;
+  padding: 0.08em 0.12em 0 0;
+  color: var(--accent);
+}
+
+.post-content blockquote {
+  border-left: 2px solid var(--faint);
+  padding-left: 1.25rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.post-content hr {
+  border: 0;
+  border-top: 1px solid var(--faint);
+  margin: 2.5rem auto;
+  width: 8rem;
+}
+
+/* Navegação entre crônicas */
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--faint);
+  font-size: 0.95rem;
+}
+
+.post-nav a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  max-width: 48%;
+  line-height: 1.4;
+}
+
+.post-nav a:hover {
+  color: var(--accent);
+}
+
+.post-nav a span {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.post-nav-next {
+  margin-left: auto;
+  text-align: right;
+}
+
+/* Arquivo */
+
+.archive-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.archive-year {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  margin: 2.25rem 0 0.75rem;
+}
+
+.archive-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.4rem 0;
+}
+
+.archive-date {
+  flex-shrink: 0;
+  min-width: 3.2rem;
+}
+
+.archive-link {
+  text-decoration: none;
+}
+
+.archive-link:hover {
+  color: var(--accent);
+}
+
+/* Paginação */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--faint);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+}
+
+.page-num {
+  color: var(--muted);
+}
+
+/* Rodapé */
+
+.site-footer {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  border-top: 1px solid var(--faint);
+  text-align: center;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* Telas pequenas */
+
+@media (max-width: 640px) {
+  body {
+    font-size: 1.08rem;
+  }
+
+  .site-header {
+    padding-top: 2.5rem;
+  }
+
+  .site-title {
+    font-size: 1.8rem;
+  }
+
+  .post-title {
+    font-size: 1.7rem;
+  }
+}
+
+/* Impressão */
+
+@media print {
+  .site-header,
+  .site-footer,
+  .post-nav {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+    font-size: 12pt;
+  }
+}

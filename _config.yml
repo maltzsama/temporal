@@ -91,7 +91,6 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
-  - "css/custom.css"
 exclude:
 ignore:
 
@@ -114,7 +113,7 @@ css_minifier:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: reader
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

@@ -1,0 +1,14 @@
+<% page.posts.each(function (post) { %>
+<article class="teaser">
+  <time class="teaser-date"><%- date(post.date, 'D [de] MMMM [de] YYYY') %></time>
+  <h2 class="teaser-title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
+  <p class="teaser-excerpt"><%= String(strip_html(post.content)).trim().replace(/\s+/g, ' ').slice(0, 240) %>…</p>
+</article>
+<% }) %>
+<% if (page.total > 1) { %>
+<nav class="pagination">
+  <% if (page.prev) { %><a class="prev" href="<%- url_for(page.prev_link) %>">← Mais recentes</a><% } %>
+  <span class="page-num">Página <%= page.current %> de <%= page.total %></span>
+  <% if (page.next) { %><a class="next" href="<%- url_for(page.next_link) %>">Mais antigas →</a><% } %>
+</nav>
+<% } %>
