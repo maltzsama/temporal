@@ -1,19 +1,35 @@
-/* Apresentação do texto das crônicas — o resto do tema landscape permanece intacto */
+/* Melhorias de leitura no corpo das crônicas (.article-entry).
+   O resto do tema landscape permanece intocado. */
 
+/* Coluna de leitura: ~42em impede linhas de 100+ caracteres
+   (o tema deixa o texto ocupar ~850px, largo demais) */
 .article-entry {
-  font-size: 1.08rem;
+  max-width: 42em;
+  font-size: 1.12rem;
   line-height: 1.85;
+  color: #444;
 }
 
+/* Parágrafos reais (posts com linha em branco no markdown) */
 .article-entry p {
+  margin: 0 0 1.4em;
   text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
-  margin-bottom: 1.35em;
+}
+
+/* As crônicas usam um único <p> cheio de <br>:
+   cada quebra vira um respiro de fim de parágrafo */
+.article-entry br {
+  content: "";
+  display: block;
+  margin-bottom: 0.6em;
 }
 
 .article blockquote {
   text-align: justify;
   background-color: rgb(209, 217, 224);
   font-size: 1em;
+  padding: 0.75em 1.25em;
+  margin: 1.5em 0;
 }
