@@ -98,7 +98,7 @@ Eu ainda estou sem Internet 4G. Preciso de um chip. Mas Natália e o amigo dela 
 
 Então tá tudo bem.
 
-**[05/01, 20:47] demetrius albuquerque: ### 04/01/2026**
+### 04/01/2026
 
 Saí pra ver se achava mais roupas que o preço valesse a pena. Até encontrei algumas coisas com bons preços, mas eram tamanhos muito além do que uso. Os tamanhos G aqui são pra gente alta, eu só sou gordo. Então os casacos que vi não ficaram bons, apesar do preço convidativo. Comprei uma bota com travas que faz barulho de sapateado, mas ao menos não devo cair de cu na neve.
 
