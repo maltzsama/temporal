@@ -34,7 +34,7 @@ Concordei com a cabeça. Ele me ofereceu uma amostra grátis. Achei horrível, m
 
 — Já tô aqui, vou pegar essa mesmo.
 
-Ele puxou aquela bomba, serviu o chop e, do alto da sabedoria angolana, decretou:
+Ele puxou aquela bomba, serviu o chopp e, do alto da sabedoria angolana, decretou:
 
 — Eu acho essa London Pride ruim. Brahma é melhor.
 

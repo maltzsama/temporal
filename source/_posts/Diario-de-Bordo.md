@@ -54,7 +54,7 @@ Chegando lá, era a porra da imigração. Entrei na fila, um negão me atendeu. 
 
 Fui embora para a fila de embarque para Amsterdã. Mais três horas, eu não sei mais que horas eram.
 
-E em Amsterdã, uma espera eterna: 9h30 de escala. Pensei em pegar o trem para ir na cidade, mas com muitas malas e nenhum locker, desisti da ideia. Sentei lá e esperei as horas escorrerem. Às 2h da manhã, um senhor vem falar comigo.
+E em Amsterdã, uma espera eterna: 9h30 de escala. Pensei em pegar o trem para ir à cidade, mas com muitas malas e nenhum locker, desisti da ideia. Sentei lá e esperei as horas escorrerem. Às 2h da manhã, um senhor vem falar comigo.
 
 — Saralamaleico habbib.
 
@@ -88,13 +88,13 @@ A gente andou num shopping, mas eu estava tão vesgo de cansado que nem consegui
 
 No dia seguinte, Natália já me arrastou pra patetar no centro de Gotemburgo. Já entendi que a cidade é um ovo. Que tá frio, que ficar doidão é caro, mas que o transporte público funciona.
 
-Ainda preciso ir no mercado. Comprar mais roupas pra inverno. Um casaco vai ser mt bem vindo. Mas acho que isso consigo resolver entre hoje e amanhã. Sem maiores problemas.
+Ainda preciso ir ao mercado. Comprar mais roupas pra inverno. Um casaco vai ser mt bem vindo. Mas acho que isso consigo resolver entre hoje e amanhã. Sem maiores problemas.
 
 À noite ainda fomos ao bar. Natália se ofereceu pra me trazer em casa. Mas eu preferi continuar com o amigo dela e tentar vir só depois. Bem, ele me enfiou em um bonde. Mas acho que era o bonde errado. Eu mesmo desci e peguei um outro com o nome que eu conhecia. Pedi ajuda para umas pessoas na rua e expliquei que estava um pouco bêbado. As pessoas foram prestativas e me apontaram o caminho certo. Cheguei em casa sem morrer congelado.
 
 ### 03/01/2026
 
-Eu ainda estou sem Internet 4G. Preciso de um chip. Mas Natália e o amigo dela falaram que é melhor eu esperar o que a empresa me entregará. Não sei bem o motivo. Acho que não deva funcionar pré-pago direito aqui. Mas nesse meio tempo eu não consegui pensar mt a respeito por causa do cansaço. Vou tentar sair pra ir no mercado. Comprar mais um casaco e comida e resolver esse ponto de uma vez.
+Eu ainda estou sem Internet 4G. Preciso de um chip. Mas Natália e o amigo dela falaram que é melhor eu esperar o que a empresa me entregará. Não sei bem o motivo. Acho que não deva funcionar pré-pago direito aqui. Mas nesse meio tempo eu não consegui pensar mt a respeito por causa do cansaço. Vou tentar sair pra ir ao mercado. Comprar mais um casaco e comida e resolver esse ponto de uma vez.
 
 Então tá tudo bem.
 
@@ -128,6 +128,6 @@ Já percebi que aqui é tudo caro que nem São Paulo. Os preços são até muito
 
 Voltei bem puto. Voltei pro lugar que eu vi roupas em todos esses dias pra ver se conseguia encontrar algo mais que eu gostasse. Mas só achei uma camisa. Preciso comprar pelo menos mais umas três.
 
-Quando já tava voltando pra casa, o meu gerente me ligou. Perguntou como eu tava por aqui, se tinha encontrado um bom lugar pra ficar. Falei que eu fui na empresa hoje, e ele contou que eu não preciso ir por causa do feriado da Epifania e que dia 07 eu também não preciso aparecer. Achei ótimo — nem comecei a trabalhar e já tô ganhando folga. Mas isso também é muito suspeito.
+Quando já tava voltando pra casa, o meu gerente me ligou. Perguntou como eu tava por aqui, se tinha encontrado um bom lugar pra ficar. Falei que eu fui à empresa hoje, e ele contou que eu não preciso ir por causa do feriado da Epifania e que dia 07 eu também não preciso aparecer. Achei ótimo — nem comecei a trabalhar e já tô ganhando folga. Mas isso também é muito suspeito.
 
 A parte boa é que amanhã eu não preciso trabalhar. Dia 06/01 é feriado aqui, tem até um nome bonito: Epifania. É alguma coisa dos três gays magos. Pouco importa, o importante é que já não trabalharei no meu segundo e terceiro dias de trabalho.
