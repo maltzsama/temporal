@@ -1,13 +1,21 @@
-/* Leitura das crônicas — o resto do tema landscape permanece intocado */
+/* ==========================================================================
+   Leitura das crônicas
+   O restante do tema landscape permanece intocado.
+   ========================================================================== */
 
-/* Corpo do texto: Newsreader, fonte de leitura com sizing óptico */
+/* Corpo do texto: Newsreader, serifada com sizing óptico */
 .article-entry {
   font-family: "Newsreader", Georgia, "Times New Roman", serif;
   font-optical-sizing: auto;
-  max-width: 42em;
   font-size: 1.12rem;
+  font-weight: 400;
+  font-variation-settings: "opsz" 20; /* opcional: controla o eixo óptico */
   line-height: 1.85;
   color: #444;
+  max-width: 42em;
+  margin-inline: auto;          /* centraliza o bloco de leitura */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Títulos: Fraunces, serifada editorial */
@@ -15,21 +23,45 @@
 #subtitle,
 .article-title {
   font-family: "Fraunces", Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
-/* Parágrafo: recuo de tab (~4 espaços), justificado com hifenização */
+/* Parágrafos: recuo de tab, justificado com hifenização */
 .article-entry > p {
   margin: 0 0 0.45em;
   text-align: justify;
+  text-indent: 1.2em;
   hyphens: auto;
   -webkit-hyphens: auto;
-  text-indent: 1.2em;
+  overflow-wrap: break-word;     /* evita estouro em palavras longas */
+  word-break: normal;
 }
 
+/* Remove o recuo do primeiro parágrafo (convenção tipográfica) */
+.article-entry > p:first-of-type,
+.article-entry > h1 + p,
+.article-entry > h2 + p,
+.article-entry > h3 + p,
+.article-entry > blockquote + p {
+  text-indent: 0;
+}
+
+/* Citações */
 .article blockquote {
-  text-align: justify;
   background-color: rgb(209, 217, 224);
   font-size: 1em;
+  line-height: 1.7;
   padding: 0.75em 1.25em;
   margin: 1.5em 0;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  border-left: 3px solid rgba(0, 0, 0, 0.15); /* âncora visual */
+}
+
+/* Última linha do parágrafo justificado não estica */
+.article-entry > p:last-child {
+  margin-bottom: 0;
 }
